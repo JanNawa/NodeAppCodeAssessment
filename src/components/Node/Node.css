@@ -1,0 +1,20 @@
+.Node {
+    margin-left: 40vmin;
+    top: 0;
+}
+
+.Node-title {
+    margin-top: 2vmin;
+}
+
+.Node-content {
+    padding: 5vmin;
+}
+
+h2 {
+    padding: 2vmin 5vmin 0;
+}
+
+.dateBold {
+    font-weight: 500;
+}

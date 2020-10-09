@@ -1,0 +1,48 @@
+.SideNav {
+    float:left;
+    width: 40vmin;
+    background-color: white;
+    border-right: 1px solid rgba(0,0,0,0.20);
+    text-transform: capitalize;
+    height:100%;
+    position:fixed;
+    top: 0;
+    overflow: auto;
+}
+
+.SideNav::after {
+    flex: 1
+}
+
+.SideNav-brand {
+    margin: 0 auto;
+    padding: auto;
+    text-align: center;
+}
+
+.SideNav-brand {
+    margin-bottom: 2vmin;
+}
+
+.SideNav-logo {
+    display: block;
+    margin: 0 auto;
+    padding: 3vmin 0vmin 1vmin 0vmin;
+    height: 10vmin;
+    pointer-events: none;
+}
+
+.SideNav-create {
+    padding: 1vmin;
+    pointer-events: none;
+}
+
+.ListItem {
+    padding-left: 5vmin;
+}
+
+.ListItem:hover {
+    border-left: 0.5vmin solid;
+    border-color: #ffbf13;
+    color: #ffbf13;
+}
